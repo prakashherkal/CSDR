@@ -1,0 +1,23 @@
+<div>
+    <h3>Student Information</h3> 
+  <ul>
+    <li>
+      <mat-form-field>
+        <input matInput [(ngModel)]="name" placeholder="Name">
+      </mat-form-field>
+    </li>
+    <li>
+      <mat-form-field>
+        <input matInput [(ngModel)]="address" placeholder="Address">
+      </mat-form-field>
+    </li>
+    <li>
+      <button style="margin: 5px" (click)="openDialog()">Update</button>
+      <button style="margin: 5px" (click)="saveStudent()">Save</button>
+    </li>
+    <br />
+    <li *ngIf="animal">
+      You chose: <p style="font-weight: bold">{{animal}}</p>
+    </li>
+  </ul>
+</div>
