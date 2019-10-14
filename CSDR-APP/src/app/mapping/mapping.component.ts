@@ -14,7 +14,6 @@ import { ModalComponent } from '../modal/modal.component';
   styleUrls: ['./mapping.component.css']
 })
 export class MappingComponent {
-  animal: string;
   name: string;
   address:string;
 
@@ -23,7 +22,7 @@ export class MappingComponent {
   openDialog(): void {
     const dialogRef = this.dialog.open(ModalComponent, {
       width: '250px',
-      data: {name: this.name, animal: this.animal,address:this.address}
+      data: {name: this.name,address:this.address}
     });
 
     dialogRef.afterClosed().subscribe(result => {
