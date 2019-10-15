@@ -12,6 +12,9 @@
     padding: 10px;
     
   }
+  ul {
+    list-style-type: none;
+  }
   
   /* Clear floats after the columns */
   .row:after {
@@ -19,3 +22,14 @@
     display: table;
     clear: both;
   }
+  mat-form-field {
+    
+    font-size: 15px;
+}
+a {
+   
+    font-size: 15px;
+}
+button{
+  font-size: 15px;
+}

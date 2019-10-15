@@ -17,6 +17,11 @@
 
 .login-page mat-form-field {
     display: block;
+    font-size: 15px;
+}
+a {
+   
+    font-size: 15px;
 }
 
 .login-page .input-field {

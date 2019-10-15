@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
-import { ModalComponent } from './modal/modal.component';
+import { ModalComponent } from './modal-edit/modal.component';
 import {RouterModule, Routes} from "@angular/router";
 import { HeaderComponent } from './header/header.component';
 import { SideNavBarComponent } from './side-nav-bar/side-nav-bar.component';

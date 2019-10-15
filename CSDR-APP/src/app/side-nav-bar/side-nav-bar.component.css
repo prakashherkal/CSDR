@@ -9,6 +9,9 @@
     overflow-x: hidden;
     padding-top: 20px;
   }
+  .sidebar-header h3 {
+    padding-left: 16px;
+  }
   
   .sidenav a {
     padding: 6px 8px 6px 16px;

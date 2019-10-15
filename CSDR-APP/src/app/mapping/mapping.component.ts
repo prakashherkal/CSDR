@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl,FormGroup } from '@angular/forms';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
-import { ModalComponent } from '../modal/modal.component';
+import { ModalComponent } from '../modal-edit/modal.component';
 
 
 
