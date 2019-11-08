@@ -20,6 +20,7 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AuthenticationService } from './services/authentication.service';
 import { RouterService } from './services/router.service';
+import {UserRegistrationService} from './services/user-registration.service';
 import { HttpClientModule } from '@angular/common/http';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 import {MatButtonModule, MatCheckboxModule, MatSelectModule} from '@angular/material';
@@ -67,7 +68,7 @@ const appRoutes: Routes = [
       MaterialModule,
       RouterModule.forRoot(appRoutes, { useHash: true })
   ],
-  providers: [CanActivateRouteGuard, AuthenticationService, RouterService],
+  providers: [CanActivateRouteGuard, AuthenticationService, RouterService,UserRegistrationService],
   bootstrap: [AppComponent],
   entryComponents: [ModalComponent]     
 })
